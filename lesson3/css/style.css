@@ -1,0 +1,63 @@
+ /*===================базовые настройки и обнуления*/
+ body{
+ 	background-color: #ddd;
+ 	line-height: 20px;
+ 	font-size: 18px;
+ }
+/*======================обёртка, позиционирование, отступ под правое меню*/
+ .wrapper{
+ 	box-sizing: border-box;
+ 	max-width: 1100px;
+ 
+ 	margin: 30px auto;
+ 	
+ 	padding-right: 300px;
+ }
+/*======================поведение изображений, адаптив*/
+ img{
+ 	width: 100%;
+ }
+/*======================декорирование заголовков и ссылок*/
+ h1, .h1,  h2, .h2{
+ 	text-align: center;
+ 	text-transform: uppercase; 
+ }
+
+ .menu{
+ 	width: 280px;
+ 	position: fixed;
+ 	top: 60px;
+ 	right: 2%;
+	background-color: #ccc;
+ 	box-sizing: border-box;
+ 	padding: 20px;
+
+ }
+
+ .menu a, a{
+ 	font-size: 80%;
+ 	font-weight: bold; 
+ 	color: rgba(0,0,255,.6);
+ 	text-transform: uppercase; 
+ }
+
+  .menu a:hover, a:hover{
+ 	 	color: rgba(200,0,255,.6);
+ 	}
+/*==============================адптив, поведение меню в зависимости от размера экрана*/
+ @media screen and (min-width: 1200px ){
+ 	.menu{
+ 	 	right: 5%;
+	}
+ }
+
+  @media screen and (max-width: 650px ){
+ 	.wrapper{
+ 	 	max-width: 650px;
+ 	 	padding-right: 0;
+  }
+  .menu{
+ 	 	display: none;
+	}
+
+ }
