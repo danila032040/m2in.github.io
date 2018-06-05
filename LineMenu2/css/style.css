@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body, h1{
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+	font-family: 'Lobster', arial;
+	font-size: 200%;
+  margin: 10%;
+  list-style: none;
+  display: flex;
+}
+
+ul li {   
+	padding: 10px 20px; 
+}
+
+ul li a {   
+	text-decoration: none;    
+	color: #03a9f4;    
+	position: relative; 
+}
+
+ul li a:after {   
+	content: ''; 
+	width: 0px; 
+	height: 5px;
+	position: absolute; 
+	top: 100%; 
+	left: 0;
+	background: #cddc39; 
+	transition: .5s;
+}
+ 
+ ul li:hover a:after {
+  width: 100%;
+  transform: translationX(100%);
+}
+
+/*полупрозрачный текст*/
+.box {
+	height: 100vh;
+	background: url(https://cdn.pixabay.com/photo/2018/03/19/20/20/wheat-3241114_1280.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 6em;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 5px 10px rgba(0,0,0,1);
+	box-shadow: 0 5px 10px rgba(0,0,0,1);
+	mix-blend-mode: overlay;
+	background: rgba(0,0,0,.3);
+	color: rgba(255, 255, 255, 0.7);
+}
