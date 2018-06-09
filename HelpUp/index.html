@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Всплывающие подсказки при наведении (вариант)</title>
+
+	<!-- Подключаем к HTML документу ссылку на файл стилей с иконочным шрифтом.
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Создадим список из пяти пунктов. Внутри каждого пункта поместим тег i с нужной иконкой, просто скопировав код конкретной иконки с сайта Font Awesome. 
+	Под тегом иконки пропишем тег span с соответствующим коротким текстом-подсказкой.
+	-->
+	 <ul>
+     <li>
+       <i class="fa fa-bed" aria-hidden="true"></i>
+       <span>Удобные номера</span>
+     </li>
+     <li>
+       <i class="fa fa-cc-visa" aria-hidden="true"></i>
+       <span>Кредитные карты</span>
+     </li>
+     <li>
+       <i class="fa fa-shower" aria-hidden="true"></i>
+       <span>Душ в номере</span>
+     </li>
+	 <li>
+       <i class="fa fa-coffee" aria-hidden="true"></i>
+       <span>Завтрак включен</span>
+     </li>
+     <li>
+       <i class="fa fa-paw" aria-hidden="true"></i>
+       <span>Питомцы OK</span>
+     </li>
+   </ul>
+</body>
+</html>
