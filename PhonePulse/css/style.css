@@ -1,0 +1,53 @@
+.pulse {
+	text-align: center;
+	line-height: 100px;
+	color: #f00;
+	font-size: 60px;
+	/*формитруем круг кнопки*/
+    background: #4fbaea;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+  /*позиционируем в центре браузера (т.к. пока это единственный элемент 
+  с абсолютным позиционированием) */
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+/*смещаем кнопку - условно прицел переносим на центр элемента с верхнего левого угла*/
+    transform: translate(-50%, -50%);
+}
+
+.pulse:before, .pulse:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #4fbaea;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: phonepuls 1.5s linear infinite;
+}
+
+@keyframes phonepuls
+{
+0%
+{
+    transform: scale(0.5);
+    opacity: 0;
+}
+50%
+{
+    opacity: 1;
+}
+100%
+{
+    transform: scale(1.2);
+    opacity: 0;
+}
+}
