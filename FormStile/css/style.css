@@ -1,0 +1,116 @@
+/* подключаем шрифт с сервера google - 
+ @import url('https://fonts.googleapis.com/css?family=Caveat:700');*/
+
+/*подключаем шрифт предварительно скачав к себе на хост*/
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Caveat Bold'), local('Caveat-Bold'), url("../fonts/Caveat-Bold.ttf") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/*Для всех элементов пропишем свойство:*/
+ * {
+    box-sizing: border-box;
+}
+
+/*В качестве фона для всей секции будет большая фотография, которая займет 
+собой все пространство - cover и не будет повторяться - no-repeat.*/
+
+body {
+	/*оригинал изображения https://cdn.pixabay.com/photo/2017/06/12/17/54/anemone-2396299_1280.jpg*/
+	font-family: 'Caveat', sans-serif;
+  background: url("../img/anemone-2396299_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ section {
+ 	/*Эта строчка задает черный цвет фона формы (0,0,0) и степень прозрачности, значение (.6) делает ее полупрозрачной.*/
+  background: rgba( 0,0,0,.6);
+    /*Закругляем углы у бокса*/
+  border-radius: 5px;
+  width: 400px;
+	padding: 40px;
+		/*Код ниже отвечает за местонахождение бокса относительно окна браузера. 
+		В нашем случае бокс позиционирован точно по центру.*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+/*Стилизуем заголовок (h2)*/
+	section h2 {
+		/*Цвет, размер, название шрифта, необходимые отступы, определяются 
+		по PSD макету, ставит заголовок по центру свойство - text-align: center.*/
+    color: #fff;
+    font-family: 'Caveat', sans-serif;
+    font-size: 30px;
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+}
+
+/*Стилизуем поля ввода (input)
+Позиционирует два блока div относительно родителя section.*/
+section div {
+  position: relative;
+}
+
+/*В макете поля ввода нарисованы не типично, мы видим простые две линии, 
+как в школьной тетрадке. Эти линии - нижнии рамки белого цвета и прозрачный фон у input-ов. 
+Остальным рамкам выставлен border: none.*/
+section div input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-family: 'Caveat', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  padding: 10px 0;
+  width: 100%;
+
+/*Если щелкнуть мышью по полю ввода, то у него появится обводка, чтобы это убрать, то пишем следующее свойство.*/
+  outline: none;
+}
+
+/*Метки полей ввода (label)
+Код ниже ставит их в нужное место согласно макету.*/
+section div label {
+    
+  color: #fff;
+  font-size: 22px;
+  left: 0;
+  letter-spacing: 1px;
+  padding: 5px 0;
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  transition: .5s;
+}
+
+Псевдоэлементы :focus и :valid
+/*При вводе в форму пользователя логина и пароля, метки (login, password) 
+будут мешаться. Поэтому в момент, когда input будет в фокусе, метки сдвинутся вверх.*/
+ section div input:focus ~ label, section div input:valid ~ label {
+  left: 0;
+  top: -22px;
+  color: #2d89ea;
+  font-size: 22px;
+}
+
+/*стилизуем кнопку*/
+section input[type="submit"] {
+  background: #2d89ea;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Caveat', sans-serif;
+  font-size: 24px;
+  padding: 6px 28px;
+  outline: none;
+}
