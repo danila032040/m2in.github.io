@@ -92,8 +92,8 @@ section div label {
   transition: .5s;
 }
 
-Псевдоэлементы :focus и :valid
-/*При вводе в форму пользователя логина и пароля, метки (login, password) 
+/*Псевдоэлементы :focus и :valid
+При вводе в форму пользователя логина и пароля, метки (login, password) 
 будут мешаться. Поэтому в момент, когда input будет в фокусе, метки сдвинутся вверх.*/
  section div input:focus ~ label, section div input:valid ~ label {
   left: 0;
