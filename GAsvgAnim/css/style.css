@@ -5,6 +5,7 @@
 */
 body, *{
 	font-family: Ubuntu, monospace;
+	text-align: center;
 }
 
 #svg_animation{
