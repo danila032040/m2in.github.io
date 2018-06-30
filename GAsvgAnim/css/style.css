@@ -1,0 +1,14 @@
+	/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/ubuntu */
+@import "http://fonts.fontstorage.com/import/ubuntu.css";
+/*
+	Ubuntu, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700, 700 italic
+*/
+body, *{
+	font-family: Ubuntu, monospace;
+}
+
+#svg_animation{
+	width: 300px;
+	height: 300px;
+	margin: 60px auto;
+}
