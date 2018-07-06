@@ -64,7 +64,8 @@ img:hover{
  		overflow: hidden;
 
  	}
-#chapter1:target{
+#chapter1:target, #part1:target, #chapter2:target, #part2:target, #chapter3:target, #part3:target, #chapter4:target, #part4:target,#chapter5:target, #part5:target 
+{
 	background: #fc0; /* Цвет фона */
     	padding: 3px; 
 }
