@@ -6,7 +6,8 @@ age = document.getElementById('age'),
 nameInput = document.getElementsByTagName("input")[0],
 surnameInput = document.getElementsByTagName("input")[1],
 ageInput = document.getElementsByTagName("input")[2];
-//  воспользуемся встроенными обработчиками событий ---------------------------------------------------------------
+//  воспользуемся встроенными обработчиками событий 
+// ---------------------------------------------------------------
 nameInput.addEventListener('input', function(){
   name.innerHTML = nameInput.value;
 });
