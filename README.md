@@ -20,6 +20,7 @@
   - [Счётчик чисел при перемотке страницы](https://m2in.github.io/numcount/)
   - [Кнопка "Бутерброд" от Артёма Исламова](https://m2in.github.io/GAburger/)
   - [Выезжающая секция меню от Артёма Исламова](https://m2in.github.io/GAMenuLeft/)
+  - [Видеофон на HTML-сайте с управлением через JS](https://m2in.github.io/videoFon/)
  # Мои планы
   :ballot_box_with_check: Начать работу над Readme.md   
   :black_square_button: Переделать стартовую страницу -  https://m2in.github.io
