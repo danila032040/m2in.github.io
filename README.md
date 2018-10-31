@@ -14,6 +14,8 @@
   - [Адаптивная вёрстка и анимация от Артёма Исламова](https://m2in.github.io/adaptivGA/)
   - [Анимированная кнопка обратного звонка](https://m2in.github.io/PhonePulse/)
   - [Вариант оформления формы - **Прозрачная форма**](https://m2in.github.io/FormStile/)
+  - [Всплывающие подсказки при наведении (вариант)](https://m2in.github.io/HelpUp/)
+  - [Button hover эффект](https://m2in.github.io/BtnHover/)
 - :three: **JS + Интересный код для проектов**
   - [Счётчик чисел при перемотке страницы](https://m2in.github.io/numcount/)
   - [Кнопка "Бутерброд" от Артёма Исламова](https://m2in.github.io/GAburger/)
