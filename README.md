@@ -5,11 +5,15 @@
   - [Простая вёрстка **БЕЗ** использования CSS](https://m2in.github.io)
   - [Вёрстка **с использованием CSS**](https://m2in.github.io/lesson3/)
   - [Вёрстка **карточки товара**](https://m2in.github.io/lesson4/)
-  - [Вёрстка **мини-ЛЕНДИНГА по макете**](https://m2in.github.io/lesson5/)
+  - [Вёрстка **мини-ЛЕНДИНГА по макету**](https://m2in.github.io/lesson5/)
 - :two: Интересный код для проектов
   - [3D-трансформация **на "чистом" CSS**](https://m2in.github.io/3d-transform/)
   - [Линейное эффектное меню **на "чистом" CSS**](https://m2in.github.io/LineMenu/)
+  - [Линейное эффектное меню **на "чистом" CSS вариант 2** + *полупрозрачный текст на фоне*](https://m2in.github.io/LineMenu2/)
+  - [Линейное эффектное меню **на "чистом" CSS вариант 3** с использованием *:before и :after*](https://m2in.github.io/MenuStyle/)
+  - [Адаптивная вёрстка и анимация от Артёма Исламова](https://m2in.github.io/adaptivGA/)
+  - [Анимированная кнопка обратного звонка](https://m2in.github.io/PhonePulse/)
   
  # Мои планы
-  :white_check_mark: Начать работу над Readme.md   
+  :ballot_box_with_check: Начать работу над Readme.md   
   :black_square_button: Переделать стартовую страницу -  https://m2in.github.io
