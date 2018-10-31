@@ -21,6 +21,13 @@
   - [Кнопка "Бутерброд" от Артёма Исламова](https://m2in.github.io/GAburger/)
   - [Выезжающая секция меню от Артёма Исламова](https://m2in.github.io/GAMenuLeft/)
   - [Видеофон на HTML-сайте с управлением через JS](https://m2in.github.io/videoFon/)
+- :1234: **Уроки по изучению JS - СТАРТ**
+  - [Урок 1 - подключаем JS и работаем с пользователем](https://m2in.github.io/AV-JS/lesson1/)
+  - [Урок 2 - используем циклы и условия](https://m2in.github.io/AV-JS/lesson2/)
+  - [Урок 3 - что такое функции в JS](https://m2in.github.io/AV-JS/lesson3/)
+  - [Урок 4 - получаем элементы и обрабатываем события](https://m2in.github.io/AV-JS/lesson4/)
  # Мои планы
   :ballot_box_with_check: Начать работу над Readme.md   
   :black_square_button: Переделать стартовую страницу -  https://m2in.github.io
+  :black_square_button: Связать код с видеоуроками (там где они есть)
+  :black_square_button: Связать код с авторским материалом (там где он есть)
