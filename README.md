@@ -13,6 +13,7 @@
   - [Линейное эффектное меню **на "чистом" CSS вариант 3** с использованием *:before и :after*](https://m2in.github.io/MenuStyle/)
   - [Адаптивная вёрстка и анимация от Артёма Исламова](https://m2in.github.io/adaptivGA/)
   - [Анимированная кнопка обратного звонка](https://m2in.github.io/PhonePulse/)
+  - [Вариант оформления формы - **Прозрачная форма**](https://m2in.github.io/FormStile/)
   
  # Мои планы
   :ballot_box_with_check: Начать работу над Readme.md   
