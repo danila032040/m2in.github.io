@@ -16,7 +16,7 @@
   - [Вариант оформления формы - **Прозрачная форма**](https://m2in.github.io/FormStile/)
   - [Всплывающие подсказки при наведении (вариант)](https://m2in.github.io/HelpUp/)
   - [Button hover эффект](https://m2in.github.io/BtnHover/)
-- :three: **JS + Интересный код для проектов**
+- :three: **Интересный код для проектов** - JS
   - [Счётчик чисел при перемотке страницы](https://m2in.github.io/numcount/)
   - [Кнопка "Бутерброд" от Артёма Исламова](https://m2in.github.io/GAburger/)
   - [Выезжающая секция меню от Артёма Исламова](https://m2in.github.io/GAMenuLeft/)
