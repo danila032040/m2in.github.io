@@ -28,6 +28,6 @@
   - [Урок 4 - получаем элементы и обрабатываем события](https://m2in.github.io/AV-JS/lesson4/)
  # Мои планы
   - [X] :ballot_box_with_check: Начать работу над Readme.md   
-  - [ ] :black_square_button: Переделать стартовую страницу -  https://m2in.github.io
+  - [X] :ballot_box_with_check: Переделать стартовую страницу -  https://m2in.github.io
   - [ ] :black_square_button: Связать код с видеоуроками (там где они есть)
   - [ ] :black_square_button: Связать код с авторским материалом (там где он есть)
