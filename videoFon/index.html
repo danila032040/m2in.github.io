@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Видео Фон - Вариант с DIV</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+	<!-- источник вдохновения тут - https://myrusakov.ru/html-fullscreen-video.html -->
+</head>
+<body>
+	<div id="movie-bg">
+<video autoplay muted loop poster="video/travaho.jpg" id="myVideo">
+  <source src="video/travaho.mp4" type="video/mp4">
+  Ваш браузер не поддерживает HTML5 видео.
+</video>
+</div>
+<div class="content">
+  <h1>Разработка сайтов</h1>
+  <p>Создаем адаптивные сайты под разные разрешения экранов от 5000 рублей за 10 дней.</p>
+  <button id="myBtn" onclick="myFunction()">Пауза</button>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
