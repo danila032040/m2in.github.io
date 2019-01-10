@@ -1,4 +1,4 @@
-# [Основы JavaScript](https://m2in.github.io/hoverSokirka/)
+# [Основы JavaScript](https://m2in.github.io/hoverSokirka/index.html)
 # :grey_exclamation: Описание
 Как сделать оригинальный ховер эффект для кнопки? Смотри в этом ролике. 
 Без использования библиотеки jQuery. 
