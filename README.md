@@ -26,7 +26,7 @@
   - [Урок 2 - используем циклы и условия](https://m2in.github.io/AV-JS/lesson2/)
   - [Урок 3 - что такое функции в JS](https://m2in.github.io/AV-JS/lesson3/)
   - [Урок 4 - получаем элементы и обрабатываем события](https://m2in.github.io/AV-JS/lesson4/)
-  - [Урок 5 - Hover-эффект на кнопке](https://m2in.github.io/hoverSokirka/)
+  - [Урок 5 - Hover-эффект на кнопке](https://m2in.github.io/hoverSokirka/index.html)
  # Мои планы
   - [X] :ballot_box_with_check: Начать работу над Readme.md   
   - [X] :ballot_box_with_check: Переделать стартовую страницу -  https://m2in.github.io
