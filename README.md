@@ -21,12 +21,13 @@
   - [Кнопка "Бутерброд" от Артёма Исламова](https://m2in.github.io/GAburger/)
   - [Выезжающая секция меню от Артёма Исламова](https://m2in.github.io/GAMenuLeft/)
   - [Видео-фон на HTML-сайте с управлением через JS](https://m2in.github.io/videoFon/)
+  - [Hover-эффект на кнопке - от А.Сокирки](https://m2in.github.io/hoverSokirka/index.html)
 - :1234: **Уроки по изучению JS - СТАРТ**
   - [Урок 1 - подключаем JS и работаем с пользователем](https://m2in.github.io/AV-JS/lesson1/)
   - [Урок 2 - используем циклы и условия](https://m2in.github.io/AV-JS/lesson2/)
   - [Урок 3 - что такое функции в JS](https://m2in.github.io/AV-JS/lesson3/)
   - [Урок 4 - получаем элементы и обрабатываем события](https://m2in.github.io/AV-JS/lesson4/)
-  - [Урок 5 - Hover-эффект на кнопке](https://m2in.github.io/hoverSokirka/index.html)
+  
  # Мои планы
   - [X] :ballot_box_with_check: Начать работу над Readme.md   
   - [X] :ballot_box_with_check: Переделать стартовую страницу -  https://m2in.github.io
