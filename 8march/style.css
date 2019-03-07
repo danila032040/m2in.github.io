@@ -26,22 +26,22 @@ html, body {
 }
 
 .card {
-    width: 900px;
-    height: 680px;
+    width: 850px;
+    height: 580px;
     padding: 15px 30px;
 
     position: absolute;
     top: 50%;
     left: 50%;
-    z-index: -1;
+    z-index: 1;
 
     transform-style: preserve-3d;
-    perspective: 200px;
+    perspective: 800px;
     opacity: 0;
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
 
-    transform: translate3d(-40%, -50%, 0) rotateY(30deg);
+    transform: translate3d(-40%, -50%, 0) rotateY(15deg);
     animation: card 2s linear 2s forwards;
 }
 
